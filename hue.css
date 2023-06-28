@@ -1,0 +1,31 @@
+::selection {
+  background: #ee1;
+  color: darkviolet;
+}
+
+:root {
+  background-color: coral;
+  background-image: conic-gradient(gold, turquoise, hotpink, violet, mediumaquamarine, deepskyblue);
+  color: indigo;
+}
+
+:any-link {
+  color: indigo;
+  background-color: transparent;
+  text-shadow:
+    2vw -3vh 1pc,
+    3vw -5vh 2pc,
+    5vw -8vh 3pc;
+}
+
+:focus {
+  background-color: blueviolet;
+  color: plum;
+  outline: 1rem groove indigo;
+}
+
+a:hover {
+  color: indigo;
+  background-color: skyblue;
+}
+
